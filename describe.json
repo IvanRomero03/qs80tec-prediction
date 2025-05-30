@@ -1,0 +1,951 @@
+{
+  "External Data Reference": {
+    "type": "text",
+    "dtype": "object",
+    "sample_values": [
+      "ISC05MTY203474",
+      "IIS05GDL140674",
+      "ARQ05MTY195569",
+      "MIA08PL90408",
+      "ARQ05GDL250383",
+      "LEC05MTY71472",
+      "LMC05HER71112",
+      "CP05CEM42958",
+      "MTE08PL104555",
+      "LDF05MTY13277"
+    ],
+    "total_unique": 25358
+  },
+  "Gender": {
+    "type": "categorical",
+    "dtype": "object",
+    "unique_values": ["F", "M"],
+    "value_counts": { "M": 14847.0, "F": 10511.0 }
+  },
+  "Campus": {
+    "type": "text",
+    "dtype": "object",
+    "sample_values": [
+      "Guadalajara",
+      "Hidalgo",
+      "Monterrey",
+      "Programas en L\u00ednea",
+      "EGADE Business School",
+      "Monterrey",
+      "Monterrey",
+      "Monterrey",
+      "Estado de M\u00e9xico",
+      "Monterrey"
+    ],
+    "total_unique": 38
+  },
+  "programa nombre": {
+    "type": "text",
+    "dtype": "object",
+    "sample_values": [
+      "Ingeniero en Mecatr\u00f3nica",
+      "Licenciado en Relaciones Internacionales",
+      "Ingeniero en Mecatr\u00f3nica",
+      "Licenciado en Mercadotecnia",
+      "Licenciado en Administraci\u00f3n y Estrategia de Negocios",
+      "Licenciado en Administraci\u00f3n y Estrategia de Negocios",
+      "Maestr\u00eda en Administraci\u00f3n",
+      "Licenciado en Dise\u00f1o Industrial",
+      "Ingeniero Industrial y de Sistemas",
+      "Licenciado en Administraci\u00f3n y Estrategia de Negocios"
+    ],
+    "total_unique": 243
+  },
+  "nivel_descripci\u00f3n": {
+    "type": "categorical",
+    "dtype": "object",
+    "unique_values": [
+      "Profesional",
+      "Maestr\u00eda",
+      "Especialidad",
+      "Doctorado"
+    ],
+    "value_counts": {
+      "Profesional": 21711.0,
+      "Maestr\u00eda": 3485.0,
+      "Especialidad": 88.0,
+      "Doctorado": 74.0
+    }
+  },
+  "escuela": {
+    "type": "categorical",
+    "dtype": "object",
+    "unique_values": [
+      "Ingenier\u00eda y Ciencias",
+      "Negocios",
+      "Arquitectura, Arte y Dise\u00f1o",
+      "Humanidades y Educaci\u00f3n",
+      "Ciencias Sociales y Gobierno",
+      "Medicina y Ciencias de la Salud",
+      "SD"
+    ],
+    "value_counts": {
+      "Ingenier\u00eda y Ciencias": 11787.0,
+      "Negocios": 8204.0,
+      "Humanidades y Educaci\u00f3n": 1716.0,
+      "Ciencias Sociales y Gobierno": 1675.0,
+      "Arquitectura, Arte y Dise\u00f1o": 1575.0,
+      "Medicina y Ciencias de la Salud": 399.0,
+      "SD": 2.0
+    }
+  },
+  "a\u00f1os de graduaci\u00f3n": {
+    "type": "text",
+    "dtype": "object",
+    "sample_values": [
+      "1985",
+      "2019",
+      "2020",
+      "2020",
+      "2017",
+      "2004",
+      "2014",
+      "2006",
+      "2011",
+      "2015"
+    ],
+    "total_unique": 68
+  },
+  "Decada": {
+    "type": "categorical",
+    "dtype": "object",
+    "unique_values": [
+      "01\u00b4s",
+      "02\u00b4s",
+      "90\u00b4s",
+      "00\u00b4s",
+      "80\u00b4s",
+      "70\u00b4s",
+      "Sin dato",
+      "50\u00b4s",
+      "60\u00b4s"
+    ],
+    "value_counts": {
+      "01\u00b4s": 10555.0,
+      "00\u00b4s": 6277.0,
+      "90\u00b4s": 3520.0,
+      "02\u00b4s": 3077.0,
+      "80\u00b4s": 1263.0,
+      "Sin dato": 294.0,
+      "70\u00b4s": 286.0,
+      "60\u00b4s": 81.0,
+      "50\u00b4s": 5.0
+    }
+  },
+  "lustro": {
+    "type": "text",
+    "dtype": "object",
+    "sample_values": [
+      "01\u00b4s  2",
+      "01\u00b4s  2",
+      "90\u00b4s  2",
+      "00\u00b4s  2",
+      "01\u00b4s  2",
+      "90\u00b4s  1",
+      "01\u00b4s  2",
+      "80\u00b4s  2",
+      "00\u00b4s  1",
+      "Sin dato"
+    ],
+    "total_unique": 16
+  },
+  "AGE": {
+    "type": "numeric",
+    "dtype": "int64",
+    "min": 21.0,
+    "max": 99.0,
+    "mean": 38.854286615663696,
+    "median": 37.0,
+    "std": 11.105449862302612
+  },
+  "nationality": {
+    "type": "text",
+    "dtype": "object",
+    "sample_values": [
+      "Mexican",
+      "Mexican",
+      "Mexican",
+      "Mexican",
+      "Mexican",
+      "Mexican",
+      "Mexican",
+      "Mexican",
+      "Mexican",
+      "Mexican"
+    ],
+    "total_unique": 43
+  },
+  "living country": {
+    "type": "text",
+    "dtype": "object",
+    "sample_values": [
+      "M\u00e9xico",
+      "Mexico",
+      "M\u00e9xico",
+      "M\u00e9xico",
+      "M\u00e9xico",
+      "Mexico",
+      "M\u00e9xico",
+      "United States of America",
+      "Mexico",
+      "M\u00e9xico"
+    ],
+    "total_unique": 87
+  },
+  "In which state do you live?": {
+    "type": "text",
+    "dtype": "object",
+    "sample_values": [
+      NaN,
+      "Estado de M\u00e9xico",
+      "Nuevo Le\u00f3n",
+      "Ciudad de M\u00e9xico",
+      NaN,
+      NaN,
+      "Estado de M\u00e9xico",
+      "Ciudad de M\u00e9xico",
+      "Quintana Roo",
+      "Estado de M\u00e9xico"
+    ],
+    "total_unique": 33
+  },
+  "living country  before studies": {
+    "type": "text",
+    "dtype": "object",
+    "sample_values": [
+      "United States of America",
+      "M\u00e9xico",
+      "M\u00e9xico",
+      "M\u00e9xico",
+      "M\u00e9xico",
+      "M\u00e9xico",
+      "M\u00e9xico",
+      "M\u00e9xico",
+      "M\u00e9xico",
+      "M\u00e9xico"
+    ],
+    "total_unique": 44
+  },
+  "living state  before studies": {
+    "type": "text",
+    "dtype": "object",
+    "sample_values": [
+      "Yucat\u00e1n",
+      "Baja California",
+      "Tamaulipas",
+      "Estado de M\u00e9xico",
+      "Jalisco",
+      NaN,
+      "Estado de M\u00e9xico",
+      NaN,
+      "Sonora",
+      "Coahuila"
+    ],
+    "total_unique": 33
+  },
+  "Which is the education level of your parents?  Father": {
+    "type": "categorical",
+    "dtype": "object",
+    "unique_values": [
+      "Postgraduate",
+      "University",
+      "Technical Career",
+      "Without studies",
+      "Secondary level",
+      "High School",
+      "Primary level",
+      "Not applicable"
+    ],
+    "value_counts": {
+      "University": 12534.0,
+      "Postgraduate": 5964.0,
+      "High School": 2082.0,
+      "Technical Career": 1801.0,
+      "Secondary level": 1205.0,
+      "Primary level": 1137.0,
+      "Not applicable": 344.0,
+      "Without studies": 291.0
+    }
+  },
+  "Which is the education level of your parents?  Mother": {
+    "type": "categorical",
+    "dtype": "object",
+    "unique_values": [
+      "University",
+      "High School",
+      "Technical Career",
+      "Postgraduate",
+      "Secondary level",
+      "Primary level",
+      "Without studies",
+      "Not applicable"
+    ],
+    "value_counts": {
+      "University": 9951.0,
+      "Technical Career": 5017.0,
+      "High School": 3874.0,
+      "Postgraduate": 3054.0,
+      "Secondary level": 1850.0,
+      "Primary level": 1210.0,
+      "Without studies": 294.0,
+      "Not applicable": 108.0
+    }
+  },
+  "Which of the following best describes the occupation of your father and mother when you began your studies at Tecnologico de Monterrey?  Father": {
+    "type": "text",
+    "dtype": "object",
+    "sample_values": [
+      "Freelancer",
+      "Manager of a company",
+      "Manager of a company",
+      "Worker of a company",
+      "Partner or owner of a company",
+      "Freelancer",
+      "Employee of a company",
+      "Employee of a company",
+      "Partner or owner of a company",
+      "Other, which one?"
+    ],
+    "total_unique": 11
+  },
+  "Which of the following best describes the occupation of your father and mother when you began your studies at Tecnologico de Monterrey?  Mother": {
+    "type": "text",
+    "dtype": "object",
+    "sample_values": [
+      "Worker of a company",
+      "Housework",
+      "Public Servant (federal, state or municipal)",
+      "Housework",
+      "Trader",
+      "Housework",
+      "Employee of a company",
+      "Public Servant (federal, state or municipal)",
+      "Public Servant (federal, state or municipal)",
+      "Employee of a company"
+    ],
+    "total_unique": 11
+  },
+  "During your studies at Tecnologico de Monterrey, did you receive the support of any scholarship (scholarship is understood as economic resources, which you did not have to reimburse at the end of your program)": {
+    "type": "categorical",
+    "dtype": "object",
+    "unique_values": ["No", "Yes"],
+    "value_counts": { "Yes": 14787.0, "No": 10571.0 }
+  },
+  "What percentage of support did you receive from the scholarship?": {
+    "type": "numeric",
+    "dtype": "float64",
+    "min": 0.0,
+    "max": 100.0,
+    "mean": 52.589910056130385,
+    "median": 45.0,
+    "std": 27.886522498525316
+  },
+  "Have you completed postgraduate studies?": {
+    "type": "categorical",
+    "dtype": "object",
+    "unique_values": [
+      "No",
+      "Yes",
+      "I am currently studying a graduate program"
+    ],
+    "value_counts": {
+      "Yes": 12899.0,
+      "No": 10857.0,
+      "I am currently studying a graduate program": 1602.0
+    }
+  },
+  "Por favor, h\u00e1ganos saber lo que estudi\u00f3  CONTESTE TODAS LAS COLUMNAS HACIA LA DERECHA\u00a0 \u00a0  Study level  Program 1": {
+    "type": "categorical",
+    "dtype": "object",
+    "unique_values": [
+      NaN,
+      "Master's Degree",
+      "Specialty",
+      "Residency / Medical Specialty",
+      "Doctorate"
+    ],
+    "value_counts": {
+      "Master's Degree": 12802.0,
+      "Specialty": 1075.0,
+      "Residency / Medical Specialty": 202.0,
+      "Doctorate": 200.0
+    }
+  },
+  "Please select the option that best describes your current situation  Selected Choice": {
+    "type": "categorical",
+    "dtype": "object",
+    "unique_values": [
+      "Paid employee",
+      "Partner or owner of a company",
+      "Not employed and not looking for employment, why?",
+      "Fulltime student",
+      "Freelancer",
+      "Not employed and seeking employment"
+    ],
+    "value_counts": {
+      "Paid employee": 17606.0,
+      "Partner or owner of a company": 3995.0,
+      "Freelancer": 2050.0,
+      "Not employed and seeking employment": 769.0,
+      "Not employed and not looking for employment, why?": 506.0,
+      "Fulltime student": 432.0
+    }
+  },
+  "How many hours do you usually work per week?": {
+    "type": "numeric",
+    "dtype": "float64",
+    "min": 0.0,
+    "max": 100.0,
+    "mean": 44.20235930827449,
+    "median": 42.0,
+    "std": 11.091023565737956
+  },
+  "Por favor conteste las siguientes preguntas de los puestos de trabajo que ha tenido.\u00a0 Se entiende...  Position  2. Current job position (If you are not currently working, describe the last job position)": {
+    "type": "text",
+    "dtype": "object",
+    "sample_values": [
+      "Coordinator/Supervisor",
+      "Manager",
+      "Coordinator/Supervisor",
+      "Analyst/Assistant",
+      "CEO / Managing Director",
+      "Consultant",
+      "Coordinator/Supervisor",
+      "Analyst/Assistant",
+      "Consultant",
+      "Owner"
+    ],
+    "total_unique": 17
+  },
+  "Since graduating from Tecnol\u00f3gico de Monterrey, have you founded a company, either as part of the group of partners or as owner? By partner we mean those who contributed money and/or work to start the company": {
+    "type": "categorical",
+    "dtype": "object",
+    "unique_values": ["No", "Yes"],
+    "value_counts": { "No": 15703.0, "Yes": 9655.0 }
+  },
+  "Have you participated as an Advisor in any Advisory Boards of a company?": {
+    "type": "categorical",
+    "dtype": "object",
+    "unique_values": ["No", "Yes"],
+    "value_counts": { "No": 22008.0, "Yes": 3350.0 }
+  },
+  "Since graduating from Tecnol\u00f3gico de Monterrey, have you founded a nonprofit organization, as part of the founding group or main founder?": {
+    "type": "categorical",
+    "dtype": "object",
+    "unique_values": ["No", "Yes"],
+    "value_counts": { "No": 23595.0, "Yes": 1763.0 }
+  },
+  "How many organizations have you founded?": {
+    "type": "text",
+    "dtype": "object",
+    "sample_values": [NaN, "1", NaN, NaN, "1", NaN, NaN, NaN, NaN, NaN],
+    "total_unique": 12
+  },
+  "How many are still in operation (actives)?": {
+    "type": "text",
+    "dtype": "object",
+    "sample_values": [NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN],
+    "total_unique": 17
+  },
+  "Por favor, nos puede proporcionar la siguiente informaci\u00f3n de las principales organizaciones soci...  Area  organization 1": {
+    "type": "text",
+    "dtype": "object",
+    "sample_values": [NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN],
+    "total_unique": 16
+  },
+  "Por favor, nos puede proporcionar la siguiente informaci\u00f3n de las principales organizaciones soci...  Area  organization 2": {
+    "type": "text",
+    "dtype": "object",
+    "sample_values": [NaN, NaN, NaN, "Other", NaN, NaN, NaN, NaN, NaN, NaN],
+    "total_unique": 16
+  },
+  "Por favor, nos puede proporcionar la siguiente informaci\u00f3n de las principales organizaciones soci...  Area  organization 3": {
+    "type": "text",
+    "dtype": "object",
+    "sample_values": [NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN],
+    "total_unique": 16
+  },
+  "Por favor, nos puede proporcionar la siguiente informaci\u00f3n de las principales organizaciones soci...  Area  organization 4": {
+    "type": "text",
+    "dtype": "object",
+    "sample_values": [NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN],
+    "total_unique": 14
+  },
+  "Por favor, nos puede proporcionar la siguiente informaci\u00f3n de las principales organizaciones soci...  Area  organization 5": {
+    "type": "categorical",
+    "dtype": "object",
+    "unique_values": [
+      NaN,
+      "Government/Public Admin",
+      "Spiritual/Religious",
+      "Human/Civil Rights",
+      "Political Organizations",
+      "Philanthropy",
+      "Education / Research"
+    ],
+    "value_counts": {
+      "Government/Public Admin": 1.0,
+      "Spiritual/Religious": 1.0,
+      "Human/Civil Rights": 1.0,
+      "Political Organizations": 1.0,
+      "Philanthropy": 1.0,
+      "Education / Research": 1.0
+    }
+  },
+  "Por favor, nos puede proporcionar la siguiente informaci\u00f3n de las principales organizaciones soci...  Foundation year  organization 1": {
+    "type": "numeric",
+    "dtype": "float64",
+    "min": 1950.0,
+    "max": 2022.0,
+    "mean": 2011.1357636706473,
+    "median": 2014.0,
+    "std": 9.875153849518522
+  },
+  "Por favor, nos puede proporcionar la siguiente informaci\u00f3n de las principales organizaciones soci...  Foundation year  organization 2": {
+    "type": "numeric",
+    "dtype": "float64",
+    "min": 1950.0,
+    "max": 2022.0,
+    "mean": 2009.9501557632398,
+    "median": 2014.0,
+    "std": 12.030846096104879
+  },
+  "Por favor, nos puede proporcionar la siguiente informaci\u00f3n de las principales organizaciones soci...  Foundation year  organization 3": {
+    "type": "numeric",
+    "dtype": "float64",
+    "min": 1950.0,
+    "max": 2022.0,
+    "mean": 2008.7205882352941,
+    "median": 2013.5,
+    "std": 13.107871154996106
+  },
+  "Por favor, nos puede proporcionar la siguiente informaci\u00f3n de las principales organizaciones soci...  Foundation year  organization 4": {
+    "type": "numeric",
+    "dtype": "float64",
+    "min": 1950.0,
+    "max": 2022.0,
+    "mean": 2003.3333333333333,
+    "median": 2006.5,
+    "std": 17.146428199482248
+  },
+  "Por favor, nos puede proporcionar la siguiente informaci\u00f3n de las principales organizaciones soci...  Foundation year  organization 5": {
+    "type": "numeric",
+    "dtype": "float64",
+    "min": 1950.0,
+    "max": 2018.0,
+    "mean": 1989.3333333333333,
+    "median": 1992.0,
+    "std": 25.192591503588247
+  },
+  "Por favor, nos puede proporcionar la siguiente informaci\u00f3n de las principales organizaciones soci...  # of years in operation  organization 1": {
+    "type": "text",
+    "dtype": "object",
+    "sample_values": [
+      NaN,
+      NaN,
+      "from 6 to 10",
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN
+    ],
+    "total_unique": 10
+  },
+  "Por favor, nos puede proporcionar la siguiente informaci\u00f3n de las principales organizaciones soci...  # of years in operation  organization 2": {
+    "type": "text",
+    "dtype": "object",
+    "sample_values": [
+      "2",
+      NaN,
+      NaN,
+      NaN,
+      "from 11 to 15",
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN
+    ],
+    "total_unique": 10
+  },
+  "Por favor, nos puede proporcionar la siguiente informaci\u00f3n de las principales organizaciones soci...  # of years in operation  organization 3": {
+    "type": "text",
+    "dtype": "object",
+    "sample_values": [NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN],
+    "total_unique": 10
+  },
+  "Por favor, nos puede proporcionar la siguiente informaci\u00f3n de las principales organizaciones soci...  # of years in operation  organization 4": {
+    "type": "categorical",
+    "dtype": "object",
+    "unique_values": [
+      NaN,
+      "from 16 to 30",
+      "3",
+      "More than 30",
+      "less than 1",
+      "5",
+      "from 11 to 15",
+      5.0,
+      4.0
+    ],
+    "value_counts": {
+      "from 16 to 30": 8.0,
+      "3": 2.0,
+      "More than 30": 2.0,
+      "5": 2.0,
+      "less than 1": 1.0,
+      "from 11 to 15": 1.0,
+      "5.0": 1.0,
+      "4.0": 1.0
+    }
+  },
+  "Por favor, nos puede proporcionar la siguiente informaci\u00f3n de las principales organizaciones soci...  # of years in operation  organization 5": {
+    "type": "categorical",
+    "dtype": "object",
+    "unique_values": [
+      NaN,
+      "More than 30",
+      "from 11 to 15",
+      "from 6 to 10",
+      "from 16 to 30"
+    ],
+    "value_counts": {
+      "More than 30": 3.0,
+      "from 11 to 15": 1.0,
+      "from 6 to 10": 1.0,
+      "from 16 to 30": 1.0
+    }
+  },
+  "Por favor, nos puede proporcionar la siguiente informaci\u00f3n de las principales organizaciones soci...  Number of employees in the last year  organization 1": {
+    "type": "categorical",
+    "dtype": "object",
+    "unique_values": [
+      NaN,
+      "self employment",
+      "From 1 to 10 employees",
+      "From 51 to 100 employees",
+      "From 11 to 50 employees",
+      "2,500 or more employees",
+      "More than 100 employees",
+      "From 500 to 999 employees",
+      "From 1,000 to 2,499 employees"
+    ],
+    "value_counts": {
+      "From 1 to 10 employees": 990.0,
+      "self employment": 356.0,
+      "From 11 to 50 employees": 233.0,
+      "From 51 to 100 employees": 27.0,
+      "More than 100 employees": 14.0,
+      "2,500 or more employees": 5.0,
+      "From 500 to 999 employees": 3.0,
+      "From 1,000 to 2,499 employees": 2.0
+    }
+  },
+  "Por favor, nos puede proporcionar la siguiente informaci\u00f3n de las principales organizaciones soci...  Number of employees in the last year  organization 2": {
+    "type": "categorical",
+    "dtype": "object",
+    "unique_values": [
+      NaN,
+      "self employment",
+      "From 1 to 10 employees",
+      "From 11 to 50 employees",
+      "From 51 to 100 employees",
+      "More than 100 employees",
+      "From 500 to 999 employees",
+      "2,500 or more employees",
+      "From 1,000 to 2,499 employees"
+    ],
+    "value_counts": {
+      "From 1 to 10 employees": 176.0,
+      "From 11 to 50 employees": 60.0,
+      "self employment": 55.0,
+      "From 51 to 100 employees": 14.0,
+      "More than 100 employees": 8.0,
+      "From 500 to 999 employees": 4.0,
+      "2,500 or more employees": 1.0,
+      "From 1,000 to 2,499 employees": 1.0
+    }
+  },
+  "Por favor, nos puede proporcionar la siguiente informaci\u00f3n de las principales organizaciones soci...  Number of employees in the last year  organization 3": {
+    "type": "categorical",
+    "dtype": "object",
+    "unique_values": [
+      NaN,
+      "From 11 to 50 employees",
+      "From 1 to 10 employees",
+      "self employment",
+      "From 51 to 100 employees",
+      "2,500 or more employees",
+      "More than 100 employees"
+    ],
+    "value_counts": {
+      "From 1 to 10 employees": 46.0,
+      "From 11 to 50 employees": 7.0,
+      "self employment": 7.0,
+      "More than 100 employees": 4.0,
+      "From 51 to 100 employees": 3.0,
+      "2,500 or more employees": 1.0
+    }
+  },
+  "Por favor, nos puede proporcionar la siguiente informaci\u00f3n de las principales organizaciones soci...  Number of employees in the last year  organization 4": {
+    "type": "categorical",
+    "dtype": "object",
+    "unique_values": [
+      NaN,
+      "From 1 to 10 employees",
+      "From 11 to 50 employees",
+      "self employment",
+      "More than 100 employees",
+      "From 51 to 100 employees"
+    ],
+    "value_counts": {
+      "From 1 to 10 employees": 8.0,
+      "From 11 to 50 employees": 3.0,
+      "From 51 to 100 employees": 2.0,
+      "self employment": 1.0,
+      "More than 100 employees": 1.0
+    }
+  },
+  "Por favor, nos puede proporcionar la siguiente informaci\u00f3n de las principales organizaciones soci...  Number of employees in the last year  organization 5": {
+    "type": "categorical",
+    "dtype": "object",
+    "unique_values": [
+      NaN,
+      "From 51 to 100 employees",
+      "From 11 to 50 employees",
+      "From 1 to 10 employees"
+    ],
+    "value_counts": {
+      "From 1 to 10 employees": 2.0,
+      "From 51 to 100 employees": 1.0,
+      "From 11 to 50 employees": 1.0
+    }
+  },
+  "Por favor, nos puede proporcionar la siguiente informaci\u00f3n de las principales organizaciones soci...  Country  organization 1": {
+    "type": "text",
+    "dtype": "object",
+    "sample_values": [
+      NaN,
+      "M\u00e9xico",
+      NaN,
+      NaN,
+      NaN,
+      "M\u00e9xico",
+      NaN,
+      NaN,
+      NaN,
+      NaN
+    ],
+    "total_unique": 36
+  },
+  "Por favor, nos puede proporcionar la siguiente informaci\u00f3n de las principales organizaciones soci...  Country  organization 2": {
+    "type": "text",
+    "dtype": "object",
+    "sample_values": [NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN],
+    "total_unique": 21
+  },
+  "Por favor, nos puede proporcionar la siguiente informaci\u00f3n de las principales organizaciones soci...  Country  organization 3": {
+    "type": "categorical",
+    "dtype": "object",
+    "unique_values": [
+      NaN,
+      "M\u00e9xico",
+      "SPAIN",
+      "UNITED ARAB EMIRATES",
+      "UNITED STATES",
+      "HONDURAS",
+      "AUSTRALIA",
+      "MEXICO",
+      "COSTA RICA"
+    ],
+    "value_counts": {
+      "M\u00e9xico": 30.0,
+      "MEXICO": 23.0,
+      "UNITED STATES": 7.0,
+      "SPAIN": 1.0,
+      "UNITED ARAB EMIRATES": 1.0,
+      "HONDURAS": 1.0,
+      "AUSTRALIA": 1.0,
+      "COSTA RICA": 1.0
+    }
+  },
+  "Por favor, nos puede proporcionar la siguiente informaci\u00f3n de las principales organizaciones soci...  Country  organization 4": {
+    "type": "categorical",
+    "dtype": "object",
+    "unique_values": [
+      NaN,
+      "M\u00e9xico",
+      "HONDURAS",
+      "AUSTRALIA",
+      "COSTA RICA",
+      "MEXICO"
+    ],
+    "value_counts": {
+      "M\u00e9xico": 11.0,
+      "MEXICO": 2.0,
+      "HONDURAS": 1.0,
+      "AUSTRALIA": 1.0,
+      "COSTA RICA": 1.0
+    }
+  },
+  "Por favor, nos puede proporcionar la siguiente informaci\u00f3n de las principales organizaciones soci...  Country  organization 5": {
+    "type": "categorical",
+    "dtype": "object",
+    "unique_values": [NaN, "M\u00e9xico"],
+    "value_counts": { "M\u00e9xico": 5.0 }
+  },
+  "Do you regularly donate money to social organizations?": {
+    "type": "categorical",
+    "dtype": "object",
+    "unique_values": ["No", "Yes"],
+    "value_counts": { "No": 15622.0, "Yes": 9736.0 }
+  },
+  "How much money per year do you donate to social organizations? If you donate in another currency, please select an approximate amount in Mexican pesos..": {
+    "type": "categorical",
+    "dtype": "object",
+    "unique_values": [
+      NaN,
+      "From 5,001 to 10,000 Mexican Pesos",
+      "More than 10,000 Mexican Pesos",
+      "From 1,001 to 5,000 Mexican Pesos",
+      "Less than 1,000 Mexican Pesos"
+    ],
+    "value_counts": {
+      "From 1,001 to 5,000 Mexican Pesos": 4122.0,
+      "More than 10,000 Mexican Pesos": 2266.0,
+      "From 5,001 to 10,000 Mexican Pesos": 1965.0,
+      "Less than 1,000 Mexican Pesos": 1383.0
+    }
+  },
+  "During the last year, have you done any volunteer work (unpaid) for social organizations?": {
+    "type": "categorical",
+    "dtype": "object",
+    "unique_values": ["Yes", "No"],
+    "value_counts": { "No": 16769.0, "Yes": 8589.0 }
+  },
+  "Would you please share an estimate amount of how many hours per MONTH you donate to social organizations?  hours per month": {
+    "type": "numeric",
+    "dtype": "float64",
+    "min": 0.0,
+    "max": 100.0,
+    "mean": 12.750494818954477,
+    "median": 10.0,
+    "std": 14.22403054667229
+  },
+  "Please rate each of the following statements using the appropiare scale:  In general, how happy or unhappy do you usually feel?\n extremely unhappy:Where 1=Extremely unhappy, 10=Extremely happy": {
+    "type": "numeric",
+    "dtype": "int64",
+    "min": 1.0,
+    "max": 10.0,
+    "mean": 8.232194968057417,
+    "median": 8.0,
+    "std": 1.3633961553097333
+  },
+  "Please rate each of the following statements using the appropiare scale:  Overall, how satisfied are you with life as a whole these days??\n Where 1 = Not satisfied at all, 10 = Completely Satisfied": {
+    "type": "numeric",
+    "dtype": "int64",
+    "min": 1.0,
+    "max": 10.0,
+    "mean": 8.321160974840287,
+    "median": 9.0,
+    "std": 1.4713477964397574
+  },
+  "Please rate each of the following statements using the appropiare scale:  IOverall, to what extent do you feel the things you do in your life are worthwhile? \n Where 1 is = Not at All Worthwhile, and 10 = Completely Worthwhile": {
+    "type": "numeric",
+    "dtype": "int64",
+    "min": 1.0,
+    "max": 10.0,
+    "mean": 8.69437652811736,
+    "median": 9.0,
+    "std": 1.4928867118534948
+  },
+  "Please rate each of the following statements using the appropiare scale:  In general, how would you rate your physical health?\n Where 1 = Very poor physical health, 10 = excellent physical health": {
+    "type": "numeric",
+    "dtype": "int64",
+    "min": 1.0,
+    "max": 10.0,
+    "mean": 8.12071141257197,
+    "median": 8.0,
+    "std": 1.4079462595287757
+  },
+  "Please rate each of the following statements using the appropiare scale:  How would you rate your overall mental health?\n Where 1= very poor mental health, 10= excellent mental health": {
+    "type": "numeric",
+    "dtype": "int64",
+    "min": 1.0,
+    "max": 10.0,
+    "mean": 8.262520703525515,
+    "median": 9.0,
+    "std": 1.4779925140336942
+  },
+  "Please rate each of the following statements using the appropiare scale:  I always act to promote good in all circumstances, even in difficult and challenging  situations \n Where 1= Not true about me, 10 = Completely true about me": {
+    "type": "numeric",
+    "dtype": "int64",
+    "min": 1.0,
+    "max": 10.0,
+    "mean": 9.099810710623867,
+    "median": 9.0,
+    "std": 1.1182126181440375
+  },
+  "Please rate each of the following statements using the appropiare scale:  I am always able to give up some happiness now for greater happiness later.\n Where 1= not true of me, 10 = totally true of me": {
+    "type": "numeric",
+    "dtype": "int64",
+    "min": 1.0,
+    "max": 10.0,
+    "mean": 8.422982885085574,
+    "median": 9.0,
+    "std": 1.5902486791319579
+  },
+  "Please rate each of the following statements using the appropiare scale:  I am content with my friendships and relationships.\n Where 1 = strongly disagree, 10= Totally agree": {
+    "type": "numeric",
+    "dtype": "int64",
+    "min": 1.0,
+    "max": 10.0,
+    "mean": 8.689644293714016,
+    "median": 9.0,
+    "std": 1.468732636224624
+  },
+  "Please rate each of the following statements using the appropiare scale:  My relationships are as satisfying as I would want them to be \n Where 1= strongly disagree, 10= Totally agree": {
+    "type": "numeric",
+    "dtype": "int64",
+    "min": 1.0,
+    "max": 10.0,
+    "mean": 8.33283381970187,
+    "median": 9.0,
+    "std": 1.6295870616418293
+  },
+  "Please rate each of the following statements using the appropiare scale:  How often do you worry about being able to meet normal monthly living expenses?\n Where 1= worry all of the time, 10= Do not ever worry": {
+    "type": "numeric",
+    "dtype": "int64",
+    "min": 1.0,
+    "max": 10.0,
+    "mean": 6.8053079895890844,
+    "median": 8.0,
+    "std": 2.7374915346678415
+  },
+  "Please rate each of the following statements using the appropiare scale:  How often do you worry about safety, food, or housing?\n Where 1= worry all the time, 10= Do not ever worry": {
+    "type": "numeric",
+    "dtype": "int64",
+    "min": 1.0,
+    "max": 10.0,
+    "mean": 7.051896837290007,
+    "median": 8.0,
+    "std": 2.819753138073769
+  },
+  "Please rate each of the following statements using the appropiare scale:  I understand my purpose in life \n Where 1 = strongly disagree, 10 = Strongly agree": {
+    "type": "numeric",
+    "dtype": "int64",
+    "min": 1.0,
+    "max": 10.0,
+    "mean": 7.996766306491049,
+    "median": 8.0,
+    "std": 2.0933166968796284
+  }
+}
