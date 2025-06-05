@@ -2,6 +2,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
+import enum
 
 
 def get_data():
@@ -34,7 +35,14 @@ cols = [
 ]
 
 
-def add_impact_score(df):
+class RemoveAColumn(enum.Enum):
+    ORG_NUMBER = 1
+    OPERATION_YEARS = 2
+    VOLUNTEER_HOURS = 3
+    DONATIONS = 4
+
+
+def add_impact_score(df, remove_columns: RemoveAColumn = None):
     # Mappings
     years_operation_map = {
         "less than 1": 1,
@@ -114,10 +122,11 @@ def add_impact_score(df):
 
     # Final weighted score using combined metric
     df["impact_score"] = (
-        10 * df["num_orgs"] +
-        3 * df["combined_operation_employees"] +
-        2 * df["volunteer_hours"] +
-        1 * df["donation_score"]
+        10 * df["num_orgs"] * (0 if remove_columns == RemoveAColumn.ORG_NUMBER else 1) +
+        3 * df["combined_operation_employees"]*(0 if remove_columns == RemoveAColumn.OPERATION_YEARS else 1) +
+        2 * df["volunteer_hours"] * (0 if remove_columns == RemoveAColumn.VOLUNTEER_HOURS else 1) +
+        1 * df["donation_score"] *
+        (0 if remove_columns == RemoveAColumn.DONATIONS else 1)
     )
 
     return df
